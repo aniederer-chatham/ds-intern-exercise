@@ -1,0 +1,40 @@
+// You shouldn't edit this or the corresponding tsx file to answer this question.
+// We're only looking at the component in `src/components/cf-match-game/cf-match-game.tsx`
+
+$bg-color: #004578;
+
+header {
+  background-color: $bg-color;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  padding: 32px 0;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+main {
+  padding: 32px 0;
+}
+
+cf-match-game {
+  display: block;
+  margin: auto;
+  width: 1152px;
+}
+
+.dynamic-height {
+  background: repeating-linear-gradient(135deg, #dddddd, #dddddd 15px, white 15px, white 45px);
+}
+
+.control {
+  margin-right: 25px;
+}
